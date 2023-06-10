@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    background-color: #dcdcde;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+}
+
+nav {
+    background-color: #b802fa;
+    color: #fff;
+}
+
+nav .navBar {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav .navBar a {
+    color: #fff;
+}
+
+nav .navBar ul {
+    display: flex;
+}
+
+nav .navBar .logo {
+    font-weight: bold;
+}
+
+nav .navBar ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav .navBar ul li a {
+    font-size: 18px;
+    transition: font-weight 0.15s;
+}
+
+nav .navBar ul li a:hover {
+    font-weight: bold;
+}
+
+
+/* Header */
+header {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header .mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    margin: 100px 0;
+}
+
+header .mainHeader .leftCol {
+    background-color: #6d6b6e;
+    color: #fff;
+    padding: 20px;
+    margin-right: 15px;
+}
+
+header .mainHeader .leftCol h1 {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+header .mainHeader .leftCol h1 span {
+    font-size: 25px;
+}
+
+header .mainHeader .leftCol h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+header .mainHeader .leftCol .card p {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+header .mainHeader .rightCol {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+/* Main */
+main {
+    max-width: 1100px;
+    margin: auto;
+    border-top: 1px solid #b802fa;
+    padding-top: 20px;
+}
+
+main .main {
+    margin: 100px 0;
+}
+
+main .main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+main .main .container .box {
+    text-align: center;
+}
+
+main .main .container .box img {
+    margin-bottom: 10px;
+}
+
+main .main .container .box a {
+    text-align: center;
+    background-color: #b802fa;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    transition: opacity 0.15s, padding 0.15s;
+}
+
+main .main .container .box a:hover {
+    background-color: #6d6b6e;
+    color: white;
+    opacity: 0.5;
+    padding: 10px 15px;
+}
+
+main .main .container .middle {
+    margin: 0 60px;
+}
+
+
+/* section for about */
+.section {
+    background-color: #b802fa;
+    color: #fff;
+    padding: 130px 0;
+}
+
+section .about {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 80px;
+}
+
+section .about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .about .container img {
+    margin-right: 30px;
+}
+
+section .about .container .aboutBox {
+    margin-left: 30px;
+}
+
+section .about .container .aboutBox h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section .about .container .aboutBox p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+section .about .container .aboutBox h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section .about .container .aboutBox ul {
+    padding-left: 30px;
+}
+
+section .about .container .aboutBox ul li {
+    padding-bottom: 3px;
+}
+
+/* section for contact */
+section .form {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 180px 40px;
+    color: #b802fa;
+}
+
+.form h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.form .input {
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: #6d6b6e;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form .input::placeholder {
+    color: #fff;
+}
+
+.form button {
+    width: 400px;
+    padding: 10px 0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #6d6b6e;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.15s, font-weight 0.15s;
+}
+
+.form button:hover {
+    background-color: #b802fa;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #b802fa;
+}
+
+footer .footer {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 30px;
+}
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+footer .footer .container a {
+    color: #fff;
+}
+
+footer .footer .container div {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .footer .container ul li {
+    list-style: none;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.fa-brands {
+    padding: 0 6px;
+}
+
+footer .footer p {
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 1050px) {
+
+    .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main .main .container .middle {
+        margin: 120px 0;
+    }
+
+    section .about .container img {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 885px) {
+    header .mainHeader {
+        flex-direction: column;
+    }  
+    
+    main .main .container .middle {
+        margin: 120px 0;
+    }
+
+    section .about .container img {
+        margin-bottom: 50px;
+    }
+
+    header .mainHeader .rightCol {
+        margin-top: 60px;
+    }
+}
